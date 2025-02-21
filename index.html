@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/styles/index.css">
     <title>Document</title>
 </head>
@@ -16,19 +21,23 @@
             <div class="product-gallery">
                 <div class="product-gallery-container">
                     <div class="product-image">
-                        <img src="/images/headphones-on-laptop.jpg" alt="Headphones on a laptop">
+                        <img class="small-images" src="/images/black.jpg" alt="Black headphones on a yellow background">
                     </div>
                     <div class="product-image">
-                        <img src="/images/headphones-on-laptop.jpg" alt="Headphones on a laptop">
+                        <img class="small-images" src="/images/black-02.jpg" alt="Black headphones on beige background">
                     </div>
                     <div class="product-image">
-                        <img src="/images/headphones-on-laptop.jpg" alt="Headphones on a laptop">
+                        <img class="small-images" src="/images/black-03.jpg" alt="Headphones near a laptop">
+                    </div>
+                    <div class="product-image">
+                        <img class="small-images" src="/images/black-04.jpg"
+                            alt="Black headphones on a white background">
                     </div>
                 </div>
             </div>
             <div class="product-enlarged-image">
-                <div>
-                    <img src="/images/headphones-on-laptop.jpg" alt="Headphones on a laptop">
+                <div class="image-wrap">
+                    <img class="enlarged-image" src="/images/black.jpg" alt="enlarged-image">
                 </div>
             </div>
             <div class="product-details">
@@ -39,20 +48,18 @@
                     <p>Product tag line</p>
                 </div>
                 <div class="product-price">
-                    <p>Price</p>
+                    <p class="price-label">Price : </p>
                     <p>2000 SEK</p>
                 </div>
                 <div class="product-color-optons-menu">
                     <div>
-                        <p>Colours</p>
+                        <p>Colors : </p>
                     </div>
                     <div class="colour-options">
-                        <div class="colour colour-black"></div>
-                        <div class="colour colour-blue"></div>
-                        <div class="colour colour-green"></div>
-                        <div class="colour colour-grey"></div>
-                        <div class="colour colour-white"></div>
-                        <div class="colour colour-pink"></div>
+                        <button class="colour colour-black"></button>
+                        <button class="colour colour-red"></button>
+                        <button class="colour colour-white"></button>
+                        <button class="colour colour-beige"></button>
                     </div>
 
                 </div>
