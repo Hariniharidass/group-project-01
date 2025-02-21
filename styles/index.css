@@ -63,6 +63,12 @@ body {
     flex-direction: column;
 }
 
+.product-card:hover {
+    transform: scale(1.02);
+    transition: ease-in-out 0.2s;
+    border: solid 5px #bd7482;
+}
+
 .main-products-image {
     width: 500px;
     height: 400px;
