@@ -20,6 +20,84 @@ body {
 ***********************************************************
 
 */
+.products-display {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.main-product-title {
+    cursor: auto;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    color: #f7f5dd;
+    font-size: 50px;
+    text-align: center;
+}
+
+.display-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 240px;
+    justify-content: center;
+    align-content: flex-start;
+    row-gap: 100px;
+    column-gap: 100px;
+    padding-bottom: 200px;
+}
+
+.display-container>a {
+    text-decoration: none;
+}
+
+.product-card {
+    border: solid 5px #f7f5dd;
+    display: flex;
+    flex: 0 0 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-products-image {
+    width: 500px;
+    height: 400px;
+}
+
+.products-card-name {
+    cursor: pointer;
+    color: #bd7482;
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+}
+
+.products-card-price {
+    cursor: pointer;
+    color: #f7f5dd;
+    font-size: 20px;
+}
+
+/*
+
+***********************************************************
+                End of Products page styling
+***********************************************************
+
+*/
+
+
+/*
+
+**********************************************************************
+                Start of Products detail page styling
+**********************************************************************
+
+*/
 .products-page {
     position: absolute;
     width: 100%;
@@ -203,8 +281,8 @@ body {
 
 /*
 
-***********************************************************
-                End of Products page styling
-***********************************************************
+**********************************************************************
+                End of Products details page styling
+**********************************************************************
 
 */
