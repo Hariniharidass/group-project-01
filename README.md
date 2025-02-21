@@ -35,7 +35,7 @@ The products page opens up to Products detail page.
 
 
 ### Our Products
-
+![Products page](/images/products.png)
  This section displays the products available for sale with and image, tile and price.
  It opens a new page when clicked which is the product detail page.
 
@@ -46,7 +46,7 @@ The products page opens up to Products detail page.
  - Hyperlink to product detail page
 
 #### Products deatil page
-
+![Product detail page](/images/product-detail.png)
 The product detail page shows the image thumbnails of selected product, along with enlarged single image. It also displays product details such as name, price, colors available, description and add to cart button.
 
 * Features
