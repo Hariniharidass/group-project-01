@@ -1,0 +1,584 @@
+
+
+
+body {
+    /*
+  
+          Theme Color             :#bd7482;
+  
+          Background color        :#4a0b1f;
+  
+          Highlight/Title text    : #f7f5dd;
+  
+          */
+    color: #bd7482;
+    background-color: #4a0b1f;
+    cursor: default;
+  }
+  
+  /*
+  
+  ***********************************************************
+                  Start of Landing page styling
+  ***********************************************************
+  
+  */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo */
+  .logo {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  .nav-items {
+    display: flex;
+    gap: 50px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: auto;
+  }
+  
+  /* Hero */
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/man-headphones.png) center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 40px;
+  }
+  
+  .hero-button button {
+    background: white;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  
+  .hero-button button:hover {
+    background: red;
+    color: white;
+    transform: scale(1.1);
+    text-decoration: underline;
+  }
+  
+  header a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+  }
+  
+  /*
+  
+  ***********************************************************
+                  End of landing page styling
+  ***********************************************************
+  
+  */
+  
+  /*
+  
+  ***********************************************************
+                  Start of Products page styling
+  ***********************************************************
+  */
+  
+  .products-display {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  
+  .main-product-title {
+    cursor: auto;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    color: #f7f5dd;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .display-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-content: flex-start;
+    row-gap: 100px;
+    column-gap: 100px;
+    padding-bottom: 40px;
+  }
+  
+  .display-container > a {
+    text-decoration: none;
+  }
+  
+  .product-card {
+    border: solid 5px #f7f5dd;
+    display: flex;
+    flex: 0 0 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.02);
+    transition: ease-in-out 0.2s;
+    border: solid 5px #bd7482;
+  }
+  
+  .main-products-image {
+    width: 400px;
+    height: 300px;
+  }
+  
+  .products-card-name {
+    cursor: pointer;
+    color: #bd7482;
+    font-size: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  
+  .products-card-price {
+    cursor: pointer;
+    color: #f7f5dd;
+    font-size: 20px;
+  }
+  
+  /*
+  
+  ***********************************************************
+                  End of Products page styling
+  ***********************************************************
+  
+  */
+
+  
+  
+  /*
+  
+  **********************************************************************
+                  Start of Products detail page styling
+  **********************************************************************
+  
+  */
+  .products-page {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 20px;
+  }
+  
+  .product-gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
+  
+  .products-image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .small-images {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+  
+  .small-images:hover {
+    cursor: pointer;
+    border: 3px solid #f7f5dd;
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+  }
+  
+  .product-enlarged-image > div > img {
+    width: 700px;
+    height: 600px;
+    flex-basis: 40%;
+    border-radius: 10px;
+  }
+  
+  .product-details {
+    flex-basis: 30%;
+    text-align: justify;
+    font-size: 15px;
+    color: #bd7482;
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .product-title {
+    text-align: left;
+    cursor: auto;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: 700;
+    color: #f7f5dd;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .product-tag-line {
+    text-align: left;
+    margin-bottom: 30px;
+    cursor: auto;
+    font-family: "Libre Baskerville";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .price-label {
+    text-align: left;
+    margin-bottom: 20px;
+    cursor: auto;
+    color: #bd7482;
+    font-size: 15px;
+  }
+  
+  .product-price {
+    text-align: left;
+    margin-bottom: 20px;
+    cursor: auto;
+    margin: 0;
+    color: #f7f5dd;
+    font-size: 30px;
+  }
+  
+  .product-color-optons-menu {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .colour-options {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .color-label {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .colour {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .colour:hover {
+    cursor: pointer;
+    border: 3px double #bd7482;
+    transform: scale(1.3);
+    transition: ease-in-out 0.2s;
+  }
+  
+  .colour-black {
+    background-color: black;
+  }
+  
+  .colour-red {
+    background-color: red;
+  }
+  
+  .colour-white {
+    background-color: white;
+  }
+  
+  .colour-beige {
+    background-color: beige;
+  }
+  
+  .product-add-to-cart-button {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .add-to-cart-btn {
+    width: 400px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: #f7f5dd 2px solid;
+    color: #bd7482;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .add-to-cart-btn::before {
+    padding: auto;
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bd7482;
+    z-index: -1;
+    transition: transform 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover::before {
+    transform: translateX(100%);
+  }
+  
+  .add-to-cart-btn:hover {
+    color: #4a0b1f;
+  }
+  
+  .product-description {
+    line-height: 20px;
+  }
+  
+  /*
+  
+  **********************************************************************
+                  End of Products details page styling
+  **********************************************************************
+  
+  */
+  
+  /*
+  
+  ***********************************************************
+                  Start of Contact us page styling
+  ***********************************************************
+  
+  */
+  .main-contact-us-page {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .contact-us-header {
+    text-align: center;
+    color: white;
+    width: 75%;
+    margin: 30px;
+  }
+  
+  .contactcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 55%;
+    background: white;
+    padding: 20px;
+    color: #4a0b1f;
+    border-radius: 10px;
+  }
+  
+  .contactform h2,
+  .contactinfo h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .contactform label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .contactform input,
+  .contactform textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .contactform textarea {
+    height: 100px;
+  }
+  
+  .contactform button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #4a0b1f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contactform button:hover {
+    background: #ec2704;
+  }
+  
+  .contactinfo p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /*
+  
+  ***********************************************************
+                  End of Contact us page styling
+  ***********************************************************
+  
+  */
+
+  /*
+  
+  ***********************************************************
+                  Start of Gallery page styling
+  ***********************************************************
+  
+  */
+  
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 20px;
+  }
+
+    .gallery img {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .gallery {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      .gallery img:hover {
+        z-index: 9;
+        transform: scale(1.3);
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        transition: transform ease 0.5s;
+      }
+
+        /*
+  
+  ***********************************************************
+                  Start of Gallery page styling
+  ***********************************************************
+  
+  */
