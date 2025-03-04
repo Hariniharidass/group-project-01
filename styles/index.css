@@ -161,6 +161,11 @@ footer a:hover {
                 Start of Products page styling
 ***********************************************************
 */
+.products-header {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
 
 .products-display {
   width: 100%;
@@ -191,7 +196,7 @@ footer a:hover {
   padding-bottom: 40px;
 }
 
-.display-container > a {
+.display-container>a {
   text-decoration: none;
 }
 
@@ -282,7 +287,7 @@ footer a:hover {
   transition: ease-in-out 0.5s;
 }
 
-.product-enlarged-image > div > img {
+.product-enlarged-image>div>img {
   width: 700px;
   height: 600px;
   flex-basis: 40%;
