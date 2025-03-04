@@ -16,6 +16,158 @@ body {
 /*
 
 ***********************************************************
+                Start of Landing page styling
+***********************************************************
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: black;
+    background-color: white;
+}
+
+
+/* Logo */
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+
+.nav-items {
+    display: flex;
+    gap: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/man-headphones.png) center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+
+.hero h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 40px;
+
+}
+
+.hero-button button {
+    background: white;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.hero-button button:hover {
+    background: red;
+    color: white;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+header a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+/*
+
+***********************************************************
+                End of landing page styling
+***********************************************************
+
+*/
+
+/*
+
+***********************************************************
                 Start of Products page styling
 ***********************************************************
 
