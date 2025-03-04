@@ -256,7 +256,7 @@ footer a:hover {
   column-gap: 20px;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -296,7 +296,7 @@ footer a:hover {
 
 .product-details {
   flex-basis: 30%;
-  text-align: justify;
+  text-align: left;
   font-size: 15px;
   color: #bd7482;
   font-family: "Libre Baskerville";
@@ -443,6 +443,7 @@ footer a:hover {
 
 .product-description {
   line-height: 20px;
+  text-align: justify;
 }
 
 /*
